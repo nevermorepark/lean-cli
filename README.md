@@ -229,7 +229,7 @@ Options:
   --backtest-name TEXT            Backtest name
   --extra-docker-config TEXT      Extra docker configuration as a JSON string. For more information https://docker-
                                   py.readthedocs.io/en/stable/containers.html
-  --no-update                     Use the local LEAN engine image instead of pulling the latest version
+  --yes-update                     Use the local LEAN engine image instead of pulling the latest version
   --lean-config FILE              The Lean configuration file that should be used (defaults to the nearest lean.json)
   --verbose                       Enable debug logging
   --help                          Show this message and exit.
